@@ -9,6 +9,8 @@ A full-stack e-commerce app built by our team to learn **NestJS** (backend) and 
 | Web      | Next.js (App Router), React, Tailwind CSS             | `apps/web/` | http://localhost:3000          |
 | DB admin | Adminer (server `postgres`, user/pass/db `ecommerce`) |             | http://localhost:8080          |
 
+> **New to the project?** Follow the step-by-step **[Setup guide](docs/SETUP.md)**. It covers what to install, how to run the project, how to view the database, and fixes for common problems.
+
 ## Prerequisites
 
 - [Node.js 22](https://nodejs.org/) (`node -v`)
@@ -66,10 +68,11 @@ To call a protected endpoint in Swagger, run `POST /api/auth/login`, copy the `a
 
 ## Where to start reading
 
-1. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): how a request flows from the browser to the database
-2. [CONTRIBUTING.md](CONTRIBUTING.md): branches, commits, pull requests
-3. [docs/TASKS.md](docs/TASKS.md): your tasks
-4. The **reference code** to copy for every new feature:
+1. [docs/SETUP.md](docs/SETUP.md): install, run, view the database, troubleshooting
+2. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): how a request flows from the browser to the database
+3. [CONTRIBUTING.md](CONTRIBUTING.md): branches, commits, pull requests
+4. [docs/TASKS.md](docs/TASKS.md): your tasks
+5. The **reference code** to copy for every new feature:
    - Backend: `apps/api/src/categories/`
    - Frontend: `apps/web/src/app/categories/`
 
